@@ -1,0 +1,7 @@
+FROM ubuntu
+# workdir means , we will land on this directory when we run the image created from this dockerfile . 
+WORKDIR /Jaijot
+#copy keyword will copy the file from local to the image . 
+COPY test1.txt .
+#RUN means run a command or many command during building process.
+RUN echo "Hi Jaijot"
