@@ -1,0 +1,3 @@
+FROM ubuntu
+COPY test1.txt .
+RUN echo "Hi Jaijot"
